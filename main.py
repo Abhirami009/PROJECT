@@ -4,7 +4,7 @@ import math
 import random
 from pygame.locals import *
 screen=pygame.display.set_mode((800,700))
-pygame.display.set_caption('CAR RACE')
+pygame.display.set_caption('ADRENALINE RUSH')
 logo=pygame.image.load('logo.png')
 pygame.display.set_icon(logo)
 black = (0, 0, 0)
