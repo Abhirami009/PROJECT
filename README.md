@@ -1,6 +1,6 @@
 # ADRENALINE RUSH
 
-#game development as a part of id1110 project at IIT Palakkad
+# game development as a part of id1110 project at IIT Palakkad
 
 welcome to adrenaline rush ,a car racing game that will test your skills and reflexes on the track.
 
