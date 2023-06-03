@@ -50,6 +50,6 @@ Abhirami R Iyer:gameloop.py. (https://github.com/Abhirami009)
 
 Konduru Bhanu Chandrika: helper.py and main.py. (https://github.com/Lily1619)
 
-Krithika Anoop:timer.py and car_selection.py. (https://github.com/
+Krithika Anoop:timer.py and car_selection.py. (https://github.com/krithikaanoop)
 
 
