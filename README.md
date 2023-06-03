@@ -46,10 +46,10 @@ Enjoy the thrilling car racing experience!
 # TEAM MEMBERS AND CONTRIBUTION. 
 
 
-Abhirami R Iyer:gameloop.py. 
+Abhirami R Iyer:gameloop.py. (https://github.com/Abhirami009)
 
-Konduru Bhanu Chandrika: helper.py and main.py. 
+Konduru Bhanu Chandrika: helper.py and main.py. (https://github.com/Lily1619)
 
-Krithika Anoop:timer.py and car_selection.py. 
+Krithika Anoop:timer.py and car_selection.py. (https://github.com/
 
 
