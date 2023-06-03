@@ -45,6 +45,7 @@ Enjoy the thrilling car racing experience!
 
 # TEAM MEMBERS AND CONTRIBUTION. 
 
+Project mentor: Prof. Albert Sunny
 
 Abhirami R Iyer:gameloop.py. (https://github.com/Abhirami009)
 
