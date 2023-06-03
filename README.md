@@ -20,7 +20,7 @@ this is a 2d car racing game developed in python with the help of pygame library
 
 -clone the repository 'git clone https://github.com/Abhirami009/PROJECT'. 
 
--navigate to the project directory 'cd PROJECT'. 
+-navigate to the project directory 'cd pro'. 
 
 -run the main.py file. 
 
