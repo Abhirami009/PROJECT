@@ -22,11 +22,11 @@ def gamel_oop():
     global p,c,start_time,screen
     
 
-    #setting background image
+   
     bg = pygame.image.load('track2.jpg')
     track_y = 0
     scroll_speed = 5 
-    # setting our player
+   
     mc=carselection()
     maincar=pygame.image.load(mc)
     maincarX = 350
@@ -34,7 +34,7 @@ def gamel_oop():
     maincarX_change = 0
     maincarY_change = 0
 
-    #other cars
+    
     car1 = pygame.image.load('car3.png')
     car1X = random.randint(100,200)
     car1Y = 100
