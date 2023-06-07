@@ -19,7 +19,7 @@ def carselection():
     car2 = pygame.image.load('car2.png')
     car3 = pygame.image.load('car3.png')
 
-    screen.fill((255, 255, 255))  # Fill the screen with white color
+    screen.fill((255, 255, 255)) 
     text = pygame.font.SysFont('ComicSans', 40)
     text_surface, text_rect = text_objects('Select Your Car', text)
     text_rect.center = (400, 50)
