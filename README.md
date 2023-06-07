@@ -38,9 +38,7 @@ Enjoy the thrilling car racing experience!
 
 # SCREENSHOTS
 <img width="814" alt="Screenshot 2023-06-03 at 4 20 52 PM" src="https://github.com/Abhirami009/PROJECT/assets/127651331/4ed441a8-924a-484e-9fb1-94208a04da94">
-<img width="805" alt="Screenshot 2023-06-03 at 4 21 03 PM" src="https://github.com/Abhirami009/PROJECT/assets/127651331/1f9eee61-0d7e-4bec-aa4d-6a12b7aee72e">
-
-<img width="814" alt="Screenshot 2023-06-03 at 4 21 12 PM" src="https://github.com/Abhirami009/PROJECT/assets/127651331/563550f8-e608-4a89-b59c-9deacbdc1f37">
+<img width="799" alt="Screenshot 2023-06-07 at 1 51 29 PM" src="https://github.com/Abhirami009/PROJECT/assets/127651331/4fdaa19e-9333-4099-ac62-a52ec935af71">
 <img width="804" alt="Screenshot 2023-06-03 at 4 21 27 PM" src="https://github.com/Abhirami009/PROJECT/assets/127651331/71ba4dad-8d5c-48a9-9120-de85a538678a">
 
 # TEAM MEMBERS AND CONTRIBUTION. 
