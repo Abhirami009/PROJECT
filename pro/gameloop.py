@@ -35,7 +35,7 @@ def gamel_oop():
     maincarY_change = 0
 
     #other cars
-    car1 = pygame.image.load('car1.png')
+    car1 = pygame.image.load('car3.png')
     car1X = random.randint(100,200)
     car1Y = 100
 
@@ -148,7 +148,6 @@ def gamel_oop():
         #movement of the enemies
         car1Y += 5
         car2Y += 7
-        car3Y += 10
         cY+=10
 
 
@@ -173,7 +172,7 @@ def gamel_oop():
         if check_collision(maincarX,maincarY,maincar_width,maincar_height,cX,cY,c_width,c_height):
             c+=20
         elapsed_time = get_elapsed_time()
-        if elapsed_time >= 60000:  # 1 minute (60,000 milliseconds)
+        if elapsed_time >= 30000:  # half minute (30,000 milliseconds)
             run = False
             gamewin=True
             break
