@@ -210,6 +210,9 @@ def help():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_b:
+                    return intro()
         screen.blit(text_surface1, text_rect1)
         screen.blit(text_surface2, text_rect2)
         screen.blit(text_surface3, text_rect3)
