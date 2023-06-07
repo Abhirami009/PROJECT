@@ -75,11 +75,16 @@ def gamel_oop():
                 text_surface, text_rect = text_objects('Game Paused', text)
                 text_rect.center = (400, 100)
                 screen.blit(text_surface, text_rect)
-                button('Continue', 100, 350, 100, 50, bright_green, bright_green, unpause)
-                button('Quit', 600, 350, 100, 50, bright_red, bright_red, quit_game)
-                pygame.display.flip()
-                pygame.time.delay(100)
-                continue
+                while p:
+                    for event in pygame.event.get():
+                        if event.type == pygame.QUIT:
+                            pygame.quit()
+                            quit()
+                    button('Continue', 100, 350, 100, 50, bright_green, bright_green, unpause)
+                    button('Quit', 600, 350, 100, 50, bright_red, bright_red, quit_game)
+                    pygame.display.flip()
+                    pygame.time.delay(100)
+                
 
             if not p:    #checking if any key has been pressed
                 if event.type == pygame.KEYDOWN: 
@@ -200,12 +205,17 @@ def help():
     text_rect4.center = (400, 400)
     text_surface1, text_rect1 = text_objects('''you'll lose the game if you collide with other cars ''', text)
     text_rect1.center = (400, 500)
-    screen.blit(text_surface1, text_rect1)
-    screen.blit(text_surface2, text_rect2)
-    screen.blit(text_surface3, text_rect3)
-    screen.blit(text_surface4, text_rect4)
-    pygame.display.update()
-    clock.tick(20)
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
+        screen.blit(text_surface1, text_rect1)
+        screen.blit(text_surface2, text_rect2)
+        screen.blit(text_surface3, text_rect3)
+        screen.blit(text_surface4, text_rect4)
+        pygame.display.update()
+        clock.tick(20)
 
 def game_win():
     global p,clock,c,black,bright_green,bright_red
