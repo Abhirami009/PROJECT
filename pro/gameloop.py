@@ -23,7 +23,7 @@ def gamel_oop():
     
 
     #setting background image
-    bg = pygame.image.load('track.png')
+    bg = pygame.image.load('track2.jpg')
     track_y = 0
     scroll_speed = 5 
     # setting our player
