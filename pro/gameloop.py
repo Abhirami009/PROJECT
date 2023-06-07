@@ -36,19 +36,16 @@ def gamel_oop():
 
     #other cars
     car1 = pygame.image.load('car1.png')
-    car1X = random.randint(50,200)
+    car1X = random.randint(100,200)
     car1Y = 100
 
     car2 = pygame.image.load('car2.png')
-    car2X = random.randint(650,800)
+    car2X = random.randint(600,670)
     car2Y = 100
 
-    car3 = pygame.image.load('car3.png')
-    car3X = random.randint(650,800)
-    car3Y = 100
 
     coin=pygame.image.load('coin.png')
-    cX=random.randint(50,800)
+    cX=random.randint(100,670)
     cY=100
     
     maincar_width = maincar.get_width()
@@ -57,8 +54,6 @@ def gamel_oop():
     car_height1 = car1.get_height()
     car_width2= car2.get_width()
     car_height2 = car2.get_height()
-    car_width3= car3.get_width()
-    car_height3 = car3.get_height()
     c_width= coin.get_width()
     c_height = coin.get_height()
 
@@ -144,7 +139,6 @@ def gamel_oop():
         #displaing other cars
         screen.blit(car1,(car1X,car1Y))
         screen.blit(car2,(car2X,car2Y))
-        screen.blit(car3,(car3X,car3Y))
         screen.blit(coin,(cX,cY))
         
         #updating the values
@@ -163,8 +157,6 @@ def gamel_oop():
             car1Y = -100
         if car2Y > 670:
             car2Y = -150
-        if car3Y > 670:
-            car3Y = -200
         if cY>670:
             cY=-250
            
@@ -174,8 +166,7 @@ def gamel_oop():
 
         # Check collision with other cars
         if check_collision(maincarX, maincarY, maincar_width, maincar_height, car1X, car1Y, car_width1, car_height1) or \
-           check_collision(maincarX, maincarY, maincar_width, maincar_height, car2X, car2Y, car_width2, car_height2) or \
-           check_collision(maincarX, maincarY, maincar_width, maincar_height, car3X, car3Y, car_width3, car_height3):
+           check_collision(maincarX, maincarY, maincar_width, maincar_height, car2X, car2Y, car_width2, car_height2):
             run = False
             game_over()
             break
