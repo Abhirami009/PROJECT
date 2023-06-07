@@ -6,7 +6,7 @@ welcome to adrenaline rush ,a car racing game that will test your skills and ref
 
 # DESCRIPTION. 
 
-this is a 2d car racing game developed in python with the help of pygame library where the player can take control of a car and navigate through the tracks. the aim is to move the car avoiding obstacles like enemy cars and collecting coins.you win the game if you avoid collisions with enemy cars and ride collecting coins for 1 minute.
+this is a 2d car racing game developed in python with the help of pygame library where the player can take control of a car and navigate through the tracks. the aim is to move the car avoiding obstacles like enemy cars and collecting coins.you win the game if you avoid collisions with enemy cars and ride collecting coins for 0.5 minute.
 
 # FEATURES  
 
