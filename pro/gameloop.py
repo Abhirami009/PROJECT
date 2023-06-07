@@ -114,7 +114,7 @@ def gamel_oop():
                     if event.key == pygame.K_DOWN:
                         maincarY_change = 0            
         pygame.display.update()
-        #setting boundary for our main car
+       
         if maincarX < 0:
             maincarX = 0
         if maincarX > 798:
@@ -131,32 +131,32 @@ def gamel_oop():
         if track_y<=-bg.get_height():
             track_y=0
         
-        #CHANGING COLOR WITH RGB VALUE, RGB = RED, GREEN, BLUE 
+         
         screen.fill((0,0,0))
 
-        #displaying the background image
+        
         screen.blit(bg,(0,track_y))
         screen.blit(bg,(0,track_y+bg.get_height()))
 
-        #displaying our main car
+       
         screen.blit(maincar,(maincarX,maincarY))
 
-        #displaing other cars
+       
         screen.blit(car1,(car1X,car1Y))
         screen.blit(car2,(car2X,car2Y))
         screen.blit(coin,(cX,cY))
         
-        #updating the values
+       
         maincarX += maincarX_change
         maincarY +=maincarY_change
 
-        #movement of the enemies
+        
         car1Y += 5
         car2Y += 7
         cY+=10
 
 
-        #moving enemies infinitely
+       
         if car1Y > 670:
             car1Y = -100
         if car2Y > 670:
@@ -165,10 +165,10 @@ def gamel_oop():
             cY=-250
            
         
-        # Check collision with other cars
+        
         
 
-        # Check collision with other cars
+        
         if check_collision(maincarX, maincarY, maincar_width, maincar_height, car1X, car1Y, car_width1, car_height1) or \
            check_collision(maincarX, maincarY, maincar_width, maincar_height, car2X, car2Y, car_width2, car_height2):
             run = False
