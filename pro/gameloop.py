@@ -70,7 +70,7 @@ def gamel_oop():
                 if event.key==pygame.K_p:
                     p=True
             if p:
-                screen.fill((255, 255, 255))  # Fill the screen with white color
+                screen.fill((255, 255, 255)) 
                 text = pygame.font.SysFont('ComicSans.ttf', 115)
                 text_surface, text_rect = text_objects('Game Paused', text)
                 text_rect.center = (400, 100)
@@ -86,7 +86,7 @@ def gamel_oop():
                     pygame.time.delay(100)
                 
 
-            if not p:    #checking if any key has been pressed
+            if not p:    
                 if event.type == pygame.KEYDOWN: 
                     if event.key == pygame.K_RIGHT:
                         maincarX_change += 5
@@ -100,7 +100,7 @@ def gamel_oop():
                     if event.key == pygame.K_DOWN:
                         maincarY_change += 5
       
-                #checking if key has been lifted up
+               
                 if event.type == pygame.KEYUP: 
                     if event.key == pygame.K_RIGHT:
                         maincarX_change = 0
@@ -177,7 +177,7 @@ def gamel_oop():
         if check_collision(maincarX,maincarY,maincar_width,maincar_height,cX,cY,c_width,c_height):
             c+=20
         elapsed_time = get_elapsed_time()
-        if elapsed_time >= 30000:  # half minute (30,000 milliseconds)
+        if elapsed_time >= 30000:  
             run = False
             gamewin=True
             break
@@ -249,7 +249,7 @@ def game_over():
                 pygame.quit()
                 sys.exit()
 
-        screen.fill((255, 255, 255))  # Fill the screen with white color
+        screen.fill((255, 255, 255)) 
         text = pygame.font.SysFont('ComicsSans.ttf', 115)
         text_surface, text_rect = text_objects('crashed' +'\n'+ str(c), text)
         text_rect.center = (400, 100)
