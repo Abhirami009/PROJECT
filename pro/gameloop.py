@@ -169,12 +169,12 @@ def gamel_oop():
         
 
         
-        if check_collision(maincarX, maincarY, maincar_width, maincar_height, car1X, car1Y, car_width1, car_height1) or \
-           check_collision(maincarX, maincarY, maincar_width, maincar_height, car2X, car2Y, car_width2, car_height2):
+        if check_collision(maincarX, maincarY, maincar_width/4, maincar_height/4, car1X, car1Y, car_width1/4, car_height1/4) or \
+           check_collision(maincarX, maincarY, maincar_width/4, maincar_height/4, car2X, car2Y, car_width2/4, car_height2/4):
             run = False
             game_over()
             break
-        if check_collision(maincarX,maincarY,maincar_width,maincar_height,cX,cY,c_width,c_height):
+        if check_collision(maincarX,maincarY,maincar_width/4,maincar_height/4,cX,cY,c_width/4,c_height/4):
             c+=20
         elapsed_time = get_elapsed_time()
         if elapsed_time >= 30000:  
