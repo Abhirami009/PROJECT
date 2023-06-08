@@ -61,7 +61,7 @@ def gamel_oop():
    
     run = True
     gamewin=False
-    start_time=0
+    start_timer()
     while run:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -180,11 +180,10 @@ def gamel_oop():
         if elapsed_time >= 30000:  
             run = False
             gamewin=True
+            gamewin()
             break
         
-        if gamewin==True:
-            game_win()
-            continue
+        
 
 def unpause():
     global p
