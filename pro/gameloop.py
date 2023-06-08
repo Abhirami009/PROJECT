@@ -180,7 +180,7 @@ def gamel_oop():
         if elapsed_time >= 30000:  
             run = False
             gamewin=True
-            gamewin()
+            game_win()
             break
         
         
