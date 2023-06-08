@@ -51,4 +51,10 @@ Konduru Bhanu Chandrika: helper.py and main.py. (https://github.com/Lily1619)
 
 Krithika Anoop:timer.py and car_selection.py. (https://github.com/krithikaanoop)
 
+# REFERENCES.
+
+https://pythonprogramming.net/placing-text-pygame-buttons/?completed=/making-interactive-pygame-buttons/
+
+https://copyassignment.com/car-race-game-in-pygame-and-python/
+
 
