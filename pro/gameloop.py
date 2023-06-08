@@ -25,7 +25,7 @@ def gamel_oop():
    
     bg = pygame.image.load('track2.jpg')
     track_y = 0
-    scroll_speed = 5 
+    scroll_speed = 2 
    
     mc=carselection()
     maincar=pygame.image.load(mc)
@@ -89,16 +89,16 @@ def gamel_oop():
             if not p:    
                 if event.type == pygame.KEYDOWN: 
                     if event.key == pygame.K_RIGHT:
-                        maincarX_change += 5
+                        maincarX_change += 2
             
                     if event.key == pygame.K_LEFT:
-                        maincarX_change -= 5
+                        maincarX_change -= 2
                 
                     if event.key == pygame.K_UP:
-                        maincarY_change -= 5
+                        maincarY_change -= 2
                     
                     if event.key == pygame.K_DOWN:
-                        maincarY_change += 5
+                        maincarY_change += 2
       
                
                 if event.type == pygame.KEYUP: 
@@ -151,9 +151,9 @@ def gamel_oop():
         maincarY +=maincarY_change
 
         
-        car1Y += 5
-        car2Y += 7
-        cY+=10
+        car1Y += 1
+        car2Y += 2
+        cY+=3
 
 
        
