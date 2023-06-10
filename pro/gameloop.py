@@ -145,6 +145,10 @@ def gamel_oop():
         screen.blit(car1,(car1X,car1Y))
         screen.blit(car2,(car2X,car2Y))
         screen.blit(coin,(cX,cY))
+        textC = pygame.font.SysFont('ComicSans.ttf', 50)
+        text_surfaceC, text_rectC = text_objects(str(c), textC)
+        text_rectC.center = (670,50) 
+        screen.blit(text_surfaceC, text_rectC)
         
        
         maincarX += maincarX_change
@@ -178,6 +182,10 @@ def gamel_oop():
             c+=20
             cY=-100
         elapsed_time = get_elapsed_time()
+        textT = pygame.font.SysFont('ComicSans.ttf', 50)
+        text_surfaceT, text_rectT = text_objects(str(elapsed_time)+'ms', textT)
+        text_rectT.center = (670,100)
+        screen.blit(text_surfaceT, text_rectT)
         if elapsed_time >= 30000:  
             run = False
             gamewin=True
