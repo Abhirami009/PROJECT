@@ -176,6 +176,7 @@ def gamel_oop():
             break
         if check_collision(maincarX,maincarY,maincar_width/4,maincar_height/4,cX,cY,c_width/4,c_height/4):
             c+=20
+            cY=-100
         elapsed_time = get_elapsed_time()
         if elapsed_time >= 30000:  
             run = False
